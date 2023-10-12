@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  min-width: 100%;
+  min-height: 100vh;
+  background-image: url('images/bg-mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+  display: flex;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 90px 10px 10px;
+  background-color:hsl(228, 56%, 26%);
+  width:80%;
+  height:20%;
+  align-items: center;
+  position: absolute;
+  left:10%;
+  top:22%;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.logo{
+  display: block;
+  width:100%;
+  margin: 0;
+}
+.logo img{
+  margin: 1.8rem 0 0 2rem;
+}
+.rest{
+  display: block;
+  margin:0.5rem 0 ;
+  position: relative;
+  left:5%;
+  width: 100%;
+}
+
+.rest img{
+  display: inline-block;
+  margin: 0.4rem;
+  margin-right: 1rem;
+  border: 0.8rem solid hsl(229, 57%, 11%);
+  border-radius: 10px;
+  position: relative;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px;
+  background-color:hsl(228, 56%, 26%);
+  width:80%;
+  align-items: center;
+  position: absolute;
+  left:10%;
+  top:48%;
+  color: white;
+}
+
+.main-paragraph{
+  position: relative;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+  
+}
+.large{
+  width:75%;
+  height:19px;
+  border-radius: 25px;
+  background-color: hsl(229, 57%, 11%);
+}
+.scroll-bar{
+  width:70%;
+  height :15px;
+  border: 2px solid black;
+  border-radius: 25px;
+  background :linear-gradient(hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+}
+.circle{
+  position: relative;
+  left:90%;
+  width:10%;
+  height:100%;
+  border-radius: 50%;
+  background-color: white;
+}
+.start-end{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.start{
+  display: inline-block;
+  position: relative;
+  left: 15%;
+}
+.end{
+  display: inline-block;
+  position: relative;
+  right:-60%;
+}
+.score{
+  position: absolute;
+  left:31%;
+  top:68%;
+  background-color: white;
+  padding: 0.2rem 0.2rem;
+  border-radius: 10px;
+}
+.score p{
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0.3rem;
+}
+.score span{
+  font-size: 0.8rem;
+  color:hsl(229, 7%, 55%);
+}

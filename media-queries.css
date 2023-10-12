@@ -1,0 +1,208 @@
+@media screen and (min-width:376px) {
+  body{
+    background-image: url(/images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: hsl(229, 57%, 11%);
+    font-size: 18px;
+  }
+  .score{
+    left:35%;
+    top:64%;
+    padding: 0.2rem 0.2rem;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width:576px) {
+  body{
+    background-image: url(/images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: hsl(229, 57%, 11%);
+    font-size: 18px;
+  }
+  .header{
+    width:55%;
+    height:20%;
+    left:20%;
+    top:22%;
+  }
+  main{
+    width:55%;
+    left:20%;
+    top:48%;
+    padding-bottom: 30px;
+  }
+  .score{
+    left:38%;
+    top:68%;
+    padding: 0.2rem 0.2rem;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  body{
+    background-image: url(/images/bg-mobile.png);
+    font-size: 20px;
+  }
+  .header{
+    width:60%;
+    height:20%;
+    left:20%;
+    top:22%;
+  }
+  main{
+    width:60%;
+    left:20%;
+    top:48%;
+    padding-bottom: 30px;
+  }
+  .logo img{
+    position: relative;
+    left:25%;
+  }
+  .rest img{
+    position: relative;
+    left:15%;
+    margin-right: 50px;
+  }
+  .score{
+    left:41%;
+    top:69%;
+    padding: 0.2rem 0.2rem;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  body{
+    background-image: url(/images/bg-mobile.png);
+    background-color: hsl(229, 57%, 11%);
+    background-size: cover;
+    background-position: bottom;
+    font-size: 18px;
+  }
+  .header{
+    width:35%;
+    height:25%;
+    left:12%;
+    top:31%;
+  }
+  main{
+    width:45%;
+    height: 15%;
+    left:50%;
+    top:40%;
+    padding-bottom: 30px;
+  }
+  .logo img{
+    position: relative;
+    left:20%;
+    margin-top: 10%;
+  }
+  .rest img{
+    position: relative;
+    left:8%;
+    margin-right: 45px;
+  }
+  .main-paragraph{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5%;
+    left: -10%;
+  }
+  
+  .circle{
+    position: relative;
+    left:91.8%;
+    width:8%;
+    height:100%;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .start{
+    left:12%;
+    bottom: 30%;
+    margin: 0;
+  }
+  .end{
+    left:60%;
+    top:-20%;
+    
+  }
+  .score{
+    left:84%;
+    top:37%;
+    padding: 0.2rem 0.2rem;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  body{
+    background-image: url(/images/bg-mobile.png);
+    background-color: hsl(229, 57%, 11%);
+    background-size: cover;
+    background-position: bottom;
+    font-size: 16px;
+  }
+  .logo img{
+    position: relative;
+    left:20%;
+    margin-top: 10%;
+  }
+  .main-paragraph{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 5%;
+    left: -15%;
+  }
+  .circle{
+    position: relative;
+    left:93.8%;
+    width:6%;
+    height:100%;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .end{
+    left:70%;
+    top:-20%;
+    
+  }
+}
+@media screen and (min-width:1400px) {
+  body{
+    background-image: url(/images/bg-desktop.png);
+    background-color: hsl(229, 57%, 11%);
+    background-size: contain;
+    background-position: bottom;
+    font-size: 18px;
+  }
+  .logo img{
+    position: relative;
+    left:10%;
+    margin-top: 10%;
+  }
+  .main-paragraph{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 5%;
+    left: -20%;
+  }
+}
+@media screen and (max-height:683px)  {
+  .header{
+    height: 25%;
+  }
+  main{
+    top:53%;
+  }
+  .score{
+    top:75%;
+  }
+}
